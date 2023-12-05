@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 25px;
+    border: 1px solid #6D8093
+}
+.header-navigation {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+.header-nav a {
+    border-bottom: 2px solid #00000000 ;
+    transition: 0.3s;
+}
+
+.header-nav a:hover {
+    border-bottom: 2px solid #6D8093
+}
