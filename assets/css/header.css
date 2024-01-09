@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 11px 25px;
-    border: 1px solid #6D8093
+    border-bottom: 1px solid var(--border-color)
 }
 .header-navigation {
     display: flex;

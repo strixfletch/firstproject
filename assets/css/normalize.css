@@ -12,6 +12,7 @@
   --button-blue: #5671A6;
   --button-dark: #2c3445;
   --text_white: #fff;
+  --border-color: #6D8093;
 
 }
 
@@ -109,8 +110,17 @@ a {
   
 }
 
+.main {
+
+  width: 100%;
+  flex-grow: 1;
+}
+
 body{
   background-image: url(../images/background-light.png);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

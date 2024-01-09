@@ -1,0 +1,24 @@
+.sidebar {
+    width: 271px;
+    border-right: 1px solid var(--border-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.sidebar * {
+    text-align: center;
+}
+
+.icons {
+
+    display: flex;
+    gap: 10px;
+
+
+
+}

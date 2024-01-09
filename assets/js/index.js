@@ -13,21 +13,21 @@
 // console.log(a);
 // console.log(b);
 
-var age = 18
+// var age = 18
 
-let f = prompt("[РОСКОМНАДЗОР]: Идёт сбор данных, введите как можно больше информации о вас:")
+// let f = prompt("[РОСКОМНАДЗОР]: Идёт сбор данных, введите как можно больше информации о вас:")
 
-if (age > 17) {
-    console.log("Можно купить");
-} else {
-    console.log("Иди нах№р!");
-}
+// if (age > 17) {
+//     console.log("Можно купить");
+// } else {
+//     console.log("Иди нах№р!");
+// }
 
-for (let i = 0; i < 10; i++) {
-        console.log("Ура");
+// for (let i = 0; i < 10; i++) {
+        // console.log("Ура");
         
-}
+// }
 
-while (j = 10) {
-    console.log("Ура");
-}
+// while (j = 10) {
+    // console.log("Ура");
+// }
