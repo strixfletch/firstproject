@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 25px;
+    border-bottom: 1px solid var(--border-color)
+}
+.header-navigation {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+.header-nav a {
+    border-bottom: 2px solid #00000000 ;
+    transition: 0.3s;
+}
+
+.header-nav a:hover {
+    border-bottom: 2px solid #6D8093
+}
+
+.lightmode-btn {
+    width: 54px;
+    height: 30px;
+    background-color: none;
+    border-radius: 30px;
+    border: 2.5px solid var(--button-blue);
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+.lightmode-btn span {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: var(--button-blue);
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    transition: 0.5s;
+}
+
+#lightmode:checked ~ .lightmode-btn span {
+    left: 28px;
+    background-color: black;
+}
+
+#lightmode:checked ~ .lightmode-btn {
+    border-color: var(--button-dark);
+
+}
+
+#lightmode {
+    display: none;
+
+}
