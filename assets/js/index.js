@@ -1,33 +1,32 @@
-// console.log("Hello world!");
+let string = "Строка"
+let num = 20;
+let bool = true
+let nothing = null
 
-// var a = "1";
-// let b = "2";
 
-// const c = "3";
+let man = {
 
-// console.log(a, b, c);
+    name: "Ваня",
+    age: "23", 
+    isSick: false,
+}
 
-// a = "То что написано снизу верно";
-// b = "То что написано сверху - ложь";
+let h1 = document.getElementsByTagName("h1");
+console.log(h1);
+// h1[0].style.fontSize = "14px";
+// h1[0].innerText = "Другой текст";
 
-// console.log(a);
-// console.log(b);
+let theme = document.getElementById("lightmode");
 
-// var age = 18
+let link = document.querySelector(".about h2");
+let links = document.querySelectorAll(".link");
+console.log(link, links);
 
-// let f = prompt("[РОСКОМНАДЗОР]: Идёт сбор данных, введите как можно больше информации о вас:")
+let background = document.querySelector("body");
+console.log("background.style.backgroundImage");
 
-// if (age > 17) {
-//     console.log("Можно купить");
-// } else {
-//     console.log("Иди нах№р!");
-// }
 
-// for (let i = 0; i < 10; i++) {
-        // console.log("Ура");
-        
-// }
-
-// while (j = 10) {
-    // console.log("Ура");
-// }
+let check = document.getElementById("lightmode");
+check.onclick = function() {
+    background.style.backgroundImage = "url(./assets/images/background-dark.png)";
+}
