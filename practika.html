@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика</title>
+    <script defer src="./assets/js/practikajs.js"></script>
+
+    <style>
+        .--active {
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: yellow;
+        }
+
+        .block {
+            display: none;
+            width: 400px;
+            height: 600px;
+            border-radius: 10px;
+            background-color: blueviolet;
+            border: 2px solid lawngreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #btn {
+            width: 150px;
+            height: 40px;
+            background-color: aquamarine;
+            border-radius: 10px;
+
+
+
+        }
+
+        .modal {
+
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(255, 255, 255, 0.567);
+            position: absolute;
+            pointer-events: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+    |
+</head>
+<body>
+<div class="modal">
+    <div class="block"></div>
+</div>
+<button id="btn">Открыть/Закрыть</button>
+</body>
+</html>

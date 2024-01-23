@@ -9,6 +9,7 @@ let man = {
     name: "Ваня",
     age: "23", 
     isSick: false,
+    
 }
 
 let h1 = document.getElementsByTagName("h1");
