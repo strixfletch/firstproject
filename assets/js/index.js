@@ -4,16 +4,6 @@ let bool = true
 let nothing = null
 
 
-let card1text = [
-    {
-        title: "Учёные нашли лекарство от рака!",
-        description: "Шок новость! 2024! ВСЕМ ЧИТАТЬ!",
-        text: "Переведите нам 150 руб, и вам будет отправлено SMS с новостью. 100% не скам, проверено китайцами!",
-        data: "30.01.2024",
-        isPublic: false,
-    },
-];
-
 let h1 = document.getElementsByTagName("h1");
 console.log(h1);
 // h1[0].style.fontSize = "14px";
@@ -43,10 +33,63 @@ check.onclick = function() {
     }
 };
 
-let cardList = document.querySelector(".cardlist");
-cardList.insertAdjacentHTML("afterbegin", 
-`<h2>${massCards[0].title}</h2>
-<p>36643</p>`
+let massCards = [
+    {
+        title: "Учёные нашли лекарство от рака!",
+        text: "Шок новость! 2024! ВСЕМ ЧИТАТЬ!",
+        data: "30.01.2024",
+        isPublic: false,
+    },
 
-);
+    {
+        title: "Учёные нашли лекарство от рака!",
+        text: "Шок новость! 2024! ВСЕМ ЧИТАТЬ!",
+        data: "30.01.2024",
+        isPublic: false,
+    },
+
+    {
+        title: "Учёные нашли лекарство от рака!",
+        text: "Шок новость! 2024! ВСЕМ ЧИТАТЬ!",
+        data: "30.01.2024",
+        isPublic: false,
+    },
+
+    {
+        title: "Учёные нашли лекарство от рака!",
+        text: "Шок новость! 2024! ВСЕМ ЧИТАТЬ!",
+        data: "30.01.2024",
+        isPublic: false,
+    },
+
+    {
+        title: "Учёные нашли лекарство от рака!",
+        text: "Шок новость! 2024! ВСЕМ ЧИТАТЬ!",
+        data: "30.01.2024",
+        isPublic: false,
+    },
+  
+
+];
+
+let cardList = document.querySelector(".card-list")
+
+for (let i = 0; i < massCards.length; i++) {
+
+    let cardList = document.querySelector(".cardlist");
+    cardList.insertAdjacentHTML(
+    "afterbegin", 
+    `<div class="card">
+    <h2>${massCards[0].title}</h2>
+    <p>
+        ${massCards[0].text}
+    </p>
+    <h6>
+        ${massCards[0].date}
+    </h6>
+    </div>`
+
+    );
+
+}
 
